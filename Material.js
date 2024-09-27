@@ -1,5 +1,5 @@
 //Class build
-public class NPC {
+public class Material {
   constructor(x_coordinate,y_coordinate,name,subarea_name,area_name){
     this.area_name = area_name;
     this.subarea_name = subarea_name;
@@ -10,5 +10,4 @@ public class NPC {
 };
 
 //Class populate
-const Mr_Mordaut_1 = new NPC(1,1,"Mr Mordaut","Anachronia Base Camp","Anachronia");
-const Laniakea_1 = new NPC(2,4,"Laniakea","Anachronia Base Camp","Anachronia");
+const Orthenglass = new NPC(1,1,"Orthenglass","Anachronia North Excavation Site","Anachronia");
